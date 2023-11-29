@@ -10,8 +10,7 @@ spec:
     name: flux-config
     namespace: flux-system
   validation: none
-  path: ./apps/voting-app/${ENVIRONMENT}
+  path: ./apps/voting-app/production
   postBuild:
     substitute:
       NAMESPACE: "votingapp"
-      CLUSTER_FULL_NAME: "${ENVIRONMENT}-${CLUSTER}"
