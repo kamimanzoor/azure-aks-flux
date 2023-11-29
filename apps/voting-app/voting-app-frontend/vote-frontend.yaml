@@ -16,7 +16,7 @@ spec:
         "kubernetes.io/os": linux
       containers:
         - name: azure-vote-front
-          image: acraksproduction.azurecr.io/votingappfrontend:4f36b0b79349f1810bfa75ef58dc478410f4dfbc #{"$imagepolicy": "flux-system:azure-vote-front"}
+          image: acraksproductionflux.azurecr.io/votingappfrontend:3ceebd3ae6687714bafdff3929e81a7765ab7abe
           resources:
             requests:
               cpu: 100m
