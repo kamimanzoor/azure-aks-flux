@@ -9,7 +9,6 @@ spec:
     kind: GitRepository
     name: flux-config
     namespace: flux-system
-  validation: none
   path: ./apps/voting-app/production
   postBuild:
     substitute:
